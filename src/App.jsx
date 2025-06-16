@@ -1,3 +1,4 @@
+<div className="min-h-screen bg-white text-black flex flex-col items-center justify-start p-6"> {
 import { useState, useEffect } from "react";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
@@ -233,3 +234,4 @@ export default function AnxtrackApp() {
     </div>
   );
 }
+} </div>
