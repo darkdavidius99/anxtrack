@@ -1,14 +1,19 @@
-export function Input(props) {
+export function Button({ children, ...props }) {
   return (
-    <input
+    <button
       {...props}
       style={{
-        padding: "8px",
-        fontSize: "14px",
+        padding: "10px 16px",
+        borderRadius: "8px",
         border: "1px solid #ccc",
-        borderRadius: "4px",
-        width: "100%"
+        backgroundColor: "#f2f2f2",
+        cursor: "pointer",
+        fontSize: "16px",
+        minHeight: "44px",
+        width: "100%",
       }}
-    />
+    >
+      {children}
+    </button>
   );
 }
