@@ -4,15 +4,16 @@ export function Button({ children, ...props }) {
       {...props}
       style={{
         padding: "10px 16px",
-        borderRadius: "6px",
+        borderRadius: "8px",
         border: "1px solid #ccc",
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "#f2f2f2",
         cursor: "pointer",
-        fontSize: "14px"
+        fontSize: "16px",
+        minHeight: "44px",
+        width: "100%",
       }}
     >
       {children}
     </button>
   );
 }
-
