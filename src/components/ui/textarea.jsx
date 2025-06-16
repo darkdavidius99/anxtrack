@@ -3,12 +3,13 @@ export function Textarea(props) {
     <textarea
       {...props}
       style={{
-        padding: "8px",
-        fontSize: "14px",
+        padding: "10px",
+        fontSize: "16px",
         border: "1px solid #ccc",
-        borderRadius: "4px",
+        borderRadius: "6px",
         width: "100%",
-        height: "80px"
+        minHeight: "100px",
+        resize: "vertical"
       }}
     />
   );
